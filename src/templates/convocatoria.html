@@ -1,0 +1,78 @@
+<div class="the-content-convocatoria">
+    <section id="detalles-convocatoria">
+        <h2>Detalles de la Convocatoria</h2>
+        <ul class="detalle-convocatoria">
+            {%- if convocatoria.codigo %}
+            <li><strong>Proceso:</strong> {{ convocatoria.codigo }}</li>
+            {%- endif %}
+            <li><strong>Contrato:</strong> {{ convocatoria.employment.type }}</li>
+            <li><strong>Vacantes:</strong> {{ convocatoria.vacancies }}</li>
+            <li><strong>Lugar de Trabajo:</strong> {{ convocatoria.location.raw or convocatoria.location.city }}</li>
+            <li><strong>Remuneración:</strong> S/. {{ '{:,.2f}'.format(convocatoria.salary.amount) }} soles</li>
+            <li><strong>Fin de Postulación:</strong> {{ convocatoria.dates.deadline_text }}</li>
+        </ul>
+    </section>
+    <section id="bases-cronograma">
+        <h2>Bases y Cronograma</h2>
+        {% if convocatoria.application.documents and convocatoria.application.documents is iterable -%}
+        <ul class="enlaces-fuente">
+            {%- for doc in convocatoria.application.documents %}
+            <li><a class="enlace-fuente" href="{{ doc.url }}" target="_blank" rel="noopener">{{ doc.label }}</a></li>
+            {%- endfor %}
+        </ul>
+        {%- else %}
+        <p>No hay enlaces disponibles.</p>
+        {% endif %}
+    </section>
+    <section id="alerta-oficial">
+        <div class="alert-box">
+            <span class="alert-faq"><strong>📢 IMPORTANTE:</strong> Puedes buscar el proceso {%- if convocatoria.codigo %}'{{ convocatoria.codigo }}'{% endif %} en el portal oficial de {{ convocatoria.organization.name }} ingresando al siguiente enlace: <a href="{{ convocatoria.application.bases_url }}" target="_blank" rel="nofollow noopener">Click aquí para ver el sitio oficial</a></span>
+        </div>
+    </section>
+    <section id="requisitos-puesto">
+        <h2>Requisitos del Puesto</h2>
+        <article class="formacion-academica">
+            <strong>Formación Académica:</strong>
+            {% if convocatoria.requirements.education and convocatoria.requirements.education is iterable and convocatoria.requirements.education is not string -%}
+            <ul>
+                {%- for item in convocatoria.requirements.education %}
+                <li>{{ item }}</li>
+                {%- endfor %}
+            </ul>
+            {%- else %}
+            <p>No especificado (revisar bases).</p>
+            {% endif %}
+        </article>
+        <article class="conocimientos">
+            <strong>Conocimientos:</strong>    
+            {%- if convocatoria.requirements.courses and convocatoria.requirements.courses is iterable and convocatoria.requirements.courses is not string -%}
+            <ul>
+                {%- for item in convocatoria.requirements.courses %}
+                <li>{{ item }}</li>
+                {%- endfor %}
+            </ul>
+            {%- else %}
+            <p>No especificado (revisar bases).</p>
+            {%- endif %}
+        </article>
+        <article class="funciones">
+            <strong>Funciones del Puesto:</strong>
+            {% if convocatoria.requirements.experience.details and convocatoria.requirements.experience.details is iterable and convocatoria.requirements.experience.details is not string -%}
+            <ul>
+                {%- for item in convocatoria.requirements.experience.details %}
+                <li>{{ item }}</li>
+                {%- endfor %}
+            </ul>
+            {%- else %}
+            <p>No especificado (revisar bases).</p>
+            {%- endif %}
+        </article>
+    </section>
+    <div class="cta-postulacion" style="text-align:center;">
+        {%- if convocatoria.application.bases_url %}
+        <a class="btn-download-light" href="{{ convocatoria.application.bases_url }}" target="_blank">¿Cómo postular?</a>
+        {%- else %}
+        <span>No hay enlace de postulación disponible.</span>
+        {%- endif %}
+    </div>
+</div>

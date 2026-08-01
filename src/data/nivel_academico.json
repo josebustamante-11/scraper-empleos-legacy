@@ -1,0 +1,230 @@
+[
+  {
+    "id": 117,
+    "name": "Bachilleres",
+    "slug": "bachilleres",
+    "keywords": [
+      "bachiller",
+      "grado de bachiller",
+      "bachiller universitario",
+      "bachiller en",
+      "bachillerato"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 113,
+    "name": "Egresados Técnicos",
+    "slug": "egresados-tecnicos",
+    "keywords": [
+      "egresado tecnico",
+      "tecnico egresado",
+      "egresado tecnico superior",
+      "carrera tecnica culminada",
+      "estudios tecnicos concluidos",
+      "instituto culminado",
+      "instituto concluido",
+      "egresado profesional tecnico",
+      "egresado de instituto"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 116,
+    "name": "Egresados Universitarios",
+    "slug": "egresados-universitarios",
+    "keywords": [
+      "egresado universitario",
+      "universitario egresado",
+      "carrera universitaria culminada",
+      "universidad culminada",
+      "pregrado concluido",
+      "estudios universitarios concluidos",
+      "egresado de universidad"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 112,
+    "name": "Estudiantes Técnicos",
+    "slug": "estudiantes-tecnicos",
+    "keywords": [
+      "estudiante tecnico",
+      "tecnico en curso",
+      "carrera tecnica en curso",
+      "estudios tecnicos en curso",
+      "instituto en curso",
+      "tecnico inconcluso",
+      "tecnicos inconclusos"
+    ],
+    "patterns": [
+      "tecnic[oa].*inconclus"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 115,
+    "name": "Estudiantes Universitarios",
+    "slug": "estudiantes-universitarios",
+    "keywords": [
+      "estudiante universitario",
+      "universitario en curso",
+      "pregrado en curso",
+      "carrera universitaria en curso",
+      "universidad en curso",
+      "estudios universitarios en curso",
+      "universitario inconcluso",
+      "universitarios inconclusos"
+    ],
+    "patterns": [
+      "universitari[oa].*inconclus"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 119,
+    "name": "Estudios Pedagógicos",
+    "slug": "estudios-pedagogicos",
+    "keywords": [
+      "pedagogia",
+      "pedagogico",
+      "estudios pedagogicos",
+      "instituto pedagogico",
+      "docencia",
+      "educacion inicial",
+      "educacion primaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 120,
+    "name": "Miembros de las FF.AA. y PNP",
+    "slug": "miembros-ffaa-pnp",
+    "keywords": [
+      "ffaa",
+      "ff aa",
+      "fuerzas armadas",
+      "pnp",
+      "policia nacional",
+      "policia nacional del peru",
+      "ejercito",
+      "marina de guerra",
+      "fuerza aerea",
+      "personal militar",
+      "suboficial",
+      "oficial pnp",
+      "oficial ffaa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 110,
+    "name": "Personas con Primaria Completa",
+    "slug": "primaria-completa",
+    "keywords": [
+      "primaria completa",
+      "nivel primario completo",
+      "sexto de primaria",
+      "escuela primaria completa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 111,
+    "name": "Personas con Secundaria Completa",
+    "slug": "secundaria-completa",
+    "keywords": [
+      "secundaria completa",
+      "nivel secundario completo",
+      "quinto de secundaria",
+      "colegio completo",
+      "educacion secundaria completa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 118,
+    "name": "Titulado Universitarios",
+    "slug": "titulado-universitarios",
+    "keywords": [
+      "titulo universitario",
+      "titulado universitario",
+      "titulada universitaria",
+      "titulado universitaria",
+      "titulada universitario",
+      "profesional titulado",
+      "titulo profesional universitario",
+      "titulo en",
+      "licenciado",
+      "ingeniero titulado",
+      "abogado titulado"
+    ],
+    "patterns": [
+      "titulad[oa] universitari[oa]",
+      "titulo (?:de|en) [a-z]{4,}"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 114,
+    "name": "Titulados Técnicos",
+    "slug": "titulados-tecnicos",
+    "keywords": [
+      "titulado tecnico",
+      "tecnico titulado",
+      "titulo tecnico",
+      "titulo profesional tecnico",
+      "titulo profesional tecnico en"
+    ],
+    "patterns": [
+      "titulo profesional.*instituto"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 121,
+    "name": "Toda carrera técnica",
+    "slug": "toda-carrera-tecnica",
+    "keywords": [
+      "carrera tecnica",
+      "toda carrera tecnica",
+      "cualquier carrera tecnica",
+      "carreras tecnicas",
+      "educacion superior tecnologico",
+      "tecnico basico",
+      "todas las carreras tecnicas"
+    ],
+    "patterns": [
+      "tecnic[oa] *[(]",
+      "tecnic[oa] y/?o ",
+      "carrera tecnic[oa].*(?:afin|relacionad)",
+      "(?:afin|relacionad).*carrera tecnic",
+      "titulo tecnico.*(?:instituto|carreras? afin|funciones|puesto|cargo)"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 122,
+    "name": "Toda carrera universitaria",
+    "slug": "toda-carrera-universitaria",
+    "keywords": [
+      "toda carrera universitaria",
+      "cualquier carrera universitaria",
+      "nivel universitario",
+      "cualquier carrera",
+      "todas las carreras",
+      "cualquier especialidad",
+      "especialidad relacionada"
+    ],
+    "patterns": [
+      "y/?o universitari",
+      "carrera universitari[oa].*(?:afin|relacionad)",
+      "(?:afin|relacionad).*carrera universitari",
+      "titulo profesional afin",
+      "bachiller.*(?:cualquier|todas las) carrera",
+      "especialidad relacionad",
+      "estudiante universitari[oa] (?:a partir|del ciclo|del [0-9])"
+    ],
+    "allow_update": false
+  }
+]

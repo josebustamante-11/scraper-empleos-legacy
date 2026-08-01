@@ -1,0 +1,48 @@
+# Credenciales — NUNCA al repo
+.env
+
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribución / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs locales
+*.log
+
+# Salida de datos
+output/
+temp/
+
+# WebP
+*.webp
+
+# Json Files
+#*.json
+
+# /backups/

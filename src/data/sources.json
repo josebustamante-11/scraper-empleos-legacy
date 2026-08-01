@@ -1,0 +1,12 @@
+[
+  {
+    "id": "default",
+    "name": "Fuente principal",
+    "base_url": "${SCRAPING_TARGET_URL}",
+    "max_pages": "${SCRAPING_MAX_PAGES}",
+    "enabled": true,
+    "batch_delay": 1.0,
+    "page_param": "page",
+    "sort_param": "sort=1-id"
+  }
+]

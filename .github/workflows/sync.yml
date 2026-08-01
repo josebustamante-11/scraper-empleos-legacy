@@ -1,0 +1,84 @@
+name: Daily Scraping Sync
+
+on:
+  # ─────────────────────────────────────────────────
+  # SCHEDULE — ajustá la hora según tu zona horaria
+  # GitHub Actions usa UTC
+  #
+  # Conversiones comunes:
+  #   Lima     (UTC-5):  2am Lima = 7am UTC  → '0 7 * * *'
+  #   Bogotá   (UTC-5):  2am Bogotá = 7am UTC → '0 7 * * *'
+  #   CDMX     (UTC-6):  2am CDMX = 8am UTC  → '0 8 * * *'
+  #   Buenos Aires (UTC-3): 2am BA = 5am UTC → '0 5 * * *'
+  #   Madrid   (UTC+1):  2am Madrid = 1am UTC → '0 1 * * *'
+  #
+  # Formato: 'minuto hora * * *'
+  # ─────────────────────────────────────────────────
+  schedule:
+    - cron: '0 7 * * *'   # 2am Lima (UTC-5) — cambiá si tu zona es diferente
+    - cron: '0 13 * * *'  # 8am Lima (UTC-5) — cambiá si tu zona es diferente
+    - cron: '0 19 * * *'  # 2pm Lima (UTC-5) — cambiá si tu zona es diferente
+    - cron: '0 1 * * *'   # 8pm Lima (UTC-5) — cambiá si tu zona es diferente
+
+  # Permite ejecutar el workflow manualmente desde GitHub UI
+  # GitHub → tu repo → Actions → Daily Scraping Sync → Run workflow
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30   # mata el job si tarda más de 30 min (red de seguridad)
+
+    steps:
+      # 1. Clonar el repositorio
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Configurar Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. Cachear dependencias — acelera los runs siguientes (~40s menos)
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
+
+      # 4. Instalar dependencias
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 5. Correr el scraper con las credenciales de Secrets
+      - name: Run scraper (App)
+        env:
+          SCRAPING_TARGET_URL:  ${{ secrets.SCRAPING_TARGET_URL }}
+          SCRAPING_VERIFY_SSL:  ${{ secrets.SCRAPING_VERIFY_SSL }}
+          DB_URL_POOLER:        ${{ secrets.DB_URL_POOLER }}
+          WP_URL:               ${{ secrets.WP_URL }}
+          WP_USER:              ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD:      ${{ secrets.WP_APP_PASSWORD }}
+          TELEGRAM_ENABLED:     ${{ secrets.TELEGRAM_ENABLED }}
+          TELEGRAM_BOT_TOKEN:   ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:     ${{ secrets.TELEGRAM_CHAT_ID }}
+          SCRAPING_MAX_PAGES:   ${{ secrets.SCRAPING_MAX_PAGES }}
+          SCRAPING_DEBUG_LIMIT: ${{ secrets.SCRAPING_DEBUG_LIMIT }}
+          DB_TABLE:             ${{ secrets.DB_TABLE }}
+        run: python main.py
+
+      # 6. Notificar si el job falla (opcional — requiere configurar el secret)
+      # Descomentá este bloque si querés recibir email cuando algo falla
+      # - name: Notificar fallo
+      #   if: failure()
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     server_address: smtp.gmail.com
+      #     server_port: 465
+      #     username: ${{ secrets.EMAIL_USER }}
+      #     password: ${{ secrets.EMAIL_PASS }}
+      #     subject: "❌ Scraper falló — ${{ github.repository }}"
+      #     to: tu@email.com
+      #     body: "El job de scraping falló. Revisá los logs en ${{ github.server_url }}/${{ github.repository }}/actions"

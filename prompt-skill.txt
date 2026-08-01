@@ -1,0 +1,177 @@
+/create-skill crea un skill 'scraping' la idea es que analices el contenido o todo el scalfolding y saques el core de lo que hace la herramienta, con la finalidad de que luego pueda hacer cambios sin problemas, corregir bugs, refactorizar codigo, evitar codigo duplicado, escalable y sin usar muchos los recursos pero con la misma eficiencia de siempre.
+
+
+
+
+
+
+
+
+
+
+Actúa como Senior Python Engineer (scraping + refactor + testing + observabilidad/logging + CI).
+Tu tarea es convertir este repositorio de scraping en un proyecto escalable, mantenible y ordenado, capaz de:
+- corregir bugs
+- agregar funcionalidades sin duplicar código
+- soportar múltiples fuentes con extracción diferente
+- mantener un schema único de salida
+- tener testing por fuente + contract tests
+- tener logs estandarizados con Loguru
+y además crear un “skill pack” dentro de .github/ para que futuras modificaciones sigan el estándar.
+
+OBJETIVO PRINCIPAL
+1) Analizar scaffolding actual y detectar desorden, duplicación y puntos frágiles.
+2) Proponer un “target scaffolding” simple y escalable por fuentes.
+3) Implementar refactor incremental (sin romper ejecución actual).
+4) Implementar patrón de “Sources” (fuentes) con contrato único.
+5) Implementar schema único de salida (modelo normalizado).
+6) Agregar tests unitarios por fuente + contract tests para todas las fuentes.
+7) Estandarizar logging con Loguru (config central + uso consistente).
+8) Crear el “skill pack” en .github/ que guíe cambios futuros (estándares, memoria, plantillas) y un workflow que valide.
+
+REGLAS OBLIGATORIAS (DRY + CALIDAD)
+- NO duplicar lógica. Todo lo común debe centralizarse.
+- Separar responsabilidades: fetch / parse / normalize / persist / config / logging.
+- Defensive programming: nunca asumir tipos perfectos (scraping real).
+- Cambios seguros e incrementales: si mover archivos rompe, crea wrappers y depreca.
+- No introducir sobre-ingeniería. Modular simple, explícito y entendible.
+- Todo cambio debe venir con prueba o al menos fixture/contract test cuando aplique.
+
+FASE 0 — PREGUNTAS (máximo 3, solo si crítico)
+Si no puedes inferirlo del repo:
+1) Comando real para ejecutar: (si no hay, asume: py main.py)
+2) Persistencia final hoy: (DB/Supabase/JSON). Si no hay, desacopla “persist”.
+3) Nombre del modelo final: (si no, usa “Convocatoria” o “JobPosting”).
+
+FASE 1 — ANÁLISIS DE REPO (máx 12 líneas)
+Inspecciona el repositorio y resume:
+- estructura de carpetas actual
+- flujo actual (fetch -> parse -> map -> persist)
+- duplicación (utils repetidos, regex/parse duplicado, etc.)
+- puntos frágiles (tipos dict vs str, parsing, timeouts, etc.)
+- dónde y cómo se usa logging hoy (si existe)
+
+FASE 2 — TARGET SCAFFOLD (simple y escalable)
+Propón una estructura objetivo (puede variar, pero debe cumplir):
+src/
+  core/            # contratos, tipos, errores, logging, settings
+  sources/         # una carpeta por fuente: convocatorias_pe, etc.
+  fetch/           # cliente http común (retries, timeouts, headers)
+  normalize/       # normalizadores comunes
+  persist/         # persistencia desacoplada
+  schemas/         # schema único de salida
+  utils/           # utilidades realmente genéricas
+tests/
+  sources/         # unit tests por fuente con fixtures
+  contract/        # contract tests para TODAS las fuentes
+docs/
+  scaffolding_plan.md
+.github/
+  actions/
+    repo-skill/
+  workflows/
+  skills/
+
+Explica en 2-4 líneas por qué ese scaffolding.
+
+FASE 3 — PATRÓN DE “FUENTE” (plugin-like)
+Define un contrato único para fuentes:
+- SourceProtocol/BaseSource con:
+  - list_items() -> iterable[RawItem]
+  - fetch_detail(raw_item) -> RawDetail (opcional si hay detalle)
+  - parse(raw_detail|raw_item) -> NormalizedModel (schema único)
+Cada fuente implementa el contrato, reutiliza fetch/normalize común y produce SIEMPRE el schema único.
+
+FASE 4 — SCHEMA ÚNICO (normalizado)
+Implementa un modelo único (pydantic o dataclasses con validación) para representar una convocatoria.
+- Campos mínimos: id/slug/url/title/organization/locations/dates/contract_type/salary/etc. (si no hay, None)
+- Validación defensiva y conversiones seguras
+- Métodos helpers para normalizar strings/dicts/listas
+
+FASE 5 — TESTING (unit + contract)
+- Usa pytest.
+- Cada fuente debe tener:
+  - fixtures guardados (HTML/JSON local) para testear sin red.
+  - tests unitarios de parser/normalizador.
+- Contract tests:
+  - iterar por todas las fuentes registradas
+  - asegurar que devuelven el schema único
+  - asegurar tipos válidos y manejo de faltantes
+  - asegurar que no crashea ante entradas raras
+Si faltan fixtures, crea mínimo 1 fixture representativo y documenta cómo capturar más.
+
+FASE 6 — LOGGING ESTÁNDAR CON LOGURU (OBLIGATORIO)
+Estandariza logs para todo el proyecto:
+1) Crea un módulo único de logging, ej:
+   src/core/logging.py
+   - configure_logger() que:
+     - configure sinks (consola + archivo opcional)
+     - formato consistente (timestamp | level | module:function:line | message)
+     - nivel por env (LOG_LEVEL)
+     - rotación y retención (si se logea a archivo)
+     - opcional: JSON logs (si conviene)
+2) Prohíbe loggers sueltos: todo módulo debe importar “logger” desde ese módulo central o usar un getter.
+3) Añade contexto útil (source_name, slug, run_id) cuando aplique, sin spam.
+4) Ajusta logs para bajo ruido y alta señal:
+   - INFO para hitos, WARNING para degradaciones, ERROR para fallos.
+5) Añade una guía corta de logging en docs (qué loggear y qué no).
+
+FASE 7 — “SKILL PACK” EN .github (para mantener estándar y permitir cambios futuros)
+Crea una carpeta:
+.github/skills/
+y genera:
+1) .github/skills/ENGINEERING_STANDARD.md
+   - reglas DRY, estructura por responsabilidades, cómo agregar una fuente, cómo escribir tests
+   - cómo corregir bugs sin romper
+2) .github/skills/LOGGING_STANDARD.md
+   - cómo usar loguru central
+   - formatos, levels, contexto, ejemplos cortos
+3) .github/skills/REFACTOR_PLAYBOOK.md
+   - plan incremental en pasos: qué mover primero, cómo deprecar, cómo probar
+4) .github/skills/MEMORY.md
+   - SOLO “memoria útil” del proyecto:
+     - contrato del schema único
+     - contrato de fuente
+     - rutas de carpetas y responsabilidades
+     - convenciones (nombres, patterns)
+   - NO incluir URLs, credenciales, ejemplos largos
+
+FASE 8 — ACTION + WORKFLOW (validación automática)
+Crea un Composite Action reutilizable:
+.github/actions/repo-skill/action.yml
+con inputs mínimos:
+- mode: check | fix | plan (default check)
+  - check: lint/format check + tests
+  - fix: aplica fixes seguros (no destructivos) + tests
+  - plan: genera reporte de scaffolding/refactor + recomendaciones (sin tocar código)
+- source: all | <source_name> para correr tests de una fuente
+- enable_telegram: false por defecto (si se habilita, notifica)
+- telegram secrets: TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID (no imprimir)
+
+Workflow:
+.github/workflows/repo-skill.yml
+- workflow_dispatch + schedule (si existe cron en repo, respétalo; si no, diario)
+- cache pip
+- artifacts: logs + reportes (plan/scaffolding)
+- step summary: estado + link a artifacts + top 5 recomendaciones
+- Telegram opcional: status + repo + run_url + resumen
+
+HERRAMIENTAS DE CALIDAD (elige según repo)
+- Si ya existen (black/isort/flake8/mypy), respétalas.
+- Si no existen, usa ruff + ruff format (simple, moderno).
+- Tests solo si existen o si los creas (pytest).
+
+RESTRICCIONES PARA AHORRAR TOKENS
+- No teoría.
+- No repetir instrucciones.
+- Entrega SOLO:
+  1) Lista de archivos creados/modificados (rutas)
+  2) Contenido completo de cada archivo
+  3) Instrucciones finales en 6–10 líneas (cómo correr local + CI)
+- Máximo 3 preguntas al inicio si algo es crítico.
+
+COMIENZA YA:
+1) Análisis del repo (máx 12 líneas).
+2) Target scaffold (breve).
+3) Genera los archivos/cambios.
+``

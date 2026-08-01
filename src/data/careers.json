@@ -1,0 +1,2513 @@
+[
+  {
+    "id": 1,
+    "name": "Educación",
+    "slug": "educacion",
+    "category": "01_educacion",
+    "keywords": [
+      "ciencias de la educacion",
+      "educacion",
+      "educacion general",
+      "formacion docente",
+      "pedagogia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 2,
+    "name": "Educación Inicial",
+    "slug": "educacion-inicial",
+    "category": "01_educacion",
+    "keywords": [
+      "neurociencia en educacion inicial",
+      "estimulacion temprana",
+      "maestra de inicial",
+      "docente de inicial",
+      "educacion inicial",
+      "profesora de inicial",
+      "psicomotricidad",
+      "didactica de inicial",
+      "preescolar",
+      "estimulación temprana",
+      "comunicacion integral"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 3,
+    "name": "Educación Primaria",
+    "slug": "educacion-primaria",
+    "category": "01_educacion",
+    "keywords": [
+      "alfabetizacion de adultos",
+      "maestra de primaria",
+      "educacion bilingue primaria",
+      "docente de primaria",
+      "didactica de comunicacion",
+      "educacion primaria",
+      "informatica educativa",
+      "profesora de primaria",
+      "didactica de ciencias naturales",
+      "didactica de matematica",
+      "educacion basica alternativa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 4,
+    "name": "Educación Secundaria",
+    "slug": "educacion-secundaria",
+    "category": "01_educacion",
+    "keywords": [
+      "profesor de secundaria",
+      "historia y geografia",
+      "especialista en secundaria",
+      "ciencias biologicas",
+      "religion",
+      "persona familia y relaciones humanas",
+      "ciencias sociales",
+      "educacion secundaria",
+      "ciencias naturales",
+      "educacion por areas",
+      "idiomas originarios",
+      "docente de secundaria",
+      "comunicacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 5,
+    "name": "Educación con Asignatura de Especialización",
+    "slug": "educacion-con-asignatura-de-especializacion",
+    "category": "01_educacion",
+    "keywords": [
+      "educacion ciencias biologicas",
+      "educacion idiomas",
+      "educacion historia y geografia",
+      "educacion ciencias naturales",
+      "educacion con asignatura de especializacion",
+      "educacion ciencias sociales",
+      "educacion matematica",
+      "educacion comunicacion",
+      "educacion religion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 6,
+    "name": "Educación Física",
+    "slug": "educacion-fisica",
+    "category": "01_educacion",
+    "keywords": [
+      "actividad fisica",
+      "ciencias del deporte",
+      "gestion deportiva",
+      "deporte escolar",
+      "entrenamiento deportivo",
+      "educacion fisica",
+      "profesor de educacion fisica",
+      "cultura fisica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 7,
+    "name": "Educación Artística",
+    "slug": "educacion-artistica",
+    "category": "01_educacion",
+    "keywords": [
+      "docencia en arte",
+      "educacion en danza",
+      "educacion artistica",
+      "pedagogia artistica",
+      "educacion teatral",
+      "docente de arte",
+      "didactica del arte",
+      "educacion musical"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 8,
+    "name": "Educación Superior y Tecnológica",
+    "slug": "educacion-superior-y-tecnologica",
+    "category": "01_educacion",
+    "keywords": [
+      "entornos virtuales de aprendizaje",
+      "docencia universitaria",
+      "pedagogia superior",
+      "informatica educativa",
+      "docencia tecnica",
+      "educacion superior y tecnologica",
+      "docencia superior",
+      "educacion para el trabajo",
+      "tecnologia educativa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 9,
+    "name": "Educación Especial",
+    "slug": "educacion-especial",
+    "category": "01_educacion",
+    "keywords": [
+      "atencion a la diversidad",
+      "educacion especial",
+      "discapacidad",
+      "discapacidad fisica",
+      "docente de educacion especial",
+      "aprendizaje especial",
+      "educacion inclusiva",
+      "discapacidad intelectual",
+      "discapacidad visual",
+      "audicion y lenguaje",
+      "multidiscapacidad"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 10,
+    "name": "Educación Intercultural Bilingüe",
+    "slug": "educacion-intercultural-bilingue",
+    "category": "01_educacion",
+    "keywords": [
+      "educacion intercultural",
+      "docente intercultural",
+      "gestion de educacion bilingue",
+      "educacion en lenguas originarias",
+      "educacion eib",
+      "aimara",
+      "quechua",
+      "lenguas originarias",
+      "educacion intercultural bilingue",
+      "educacion bilingue"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 11,
+    "name": "Gestión y Calidad Educativa",
+    "slug": "gestion-y-calidad-educativa",
+    "category": "01_educacion",
+    "keywords": [
+      "liderazgo educativo",
+      "gestion estrategica educativa",
+      "gestion educativa",
+      "planificacion educativa",
+      "calidad educativa",
+      "certificacion educativa",
+      "acreditacion educativa",
+      "gestion y calidad educativa",
+      "gestion universitaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 12,
+    "name": "Otros Programas en Educación",
+    "slug": "otros-programas-en-educacion",
+    "category": "01_educacion",
+    "keywords": [
+      "otros programas en educacion",
+      "educacion general",
+      "formacion pedagogica general"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 13,
+    "name": "Comunicación Audiovisual",
+    "slug": "comunicacion-audiovisual",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "cine y television",
+      "produccion audiovisual",
+      "cinematografia",
+      "medios audiovisuales",
+      "comunicacion audiovisual",
+      "fotografia publicitaria",
+      "radio y television",
+      "medios interactivos",
+      "multimedia",
+      "produccion para medios de comunicacion",
+      "edicion electronica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 14,
+    "name": "Diseño Gráfico",
+    "slug": "diseno-grafico",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "diseno grafico",
+      "diseno visual",
+      "arte digital",
+      "disenador grafico",
+      "comunicacion visual",
+      "diseno digital",
+      "diseno publicitario",
+      "diseno editorial"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 15,
+    "name": "Diseño Industrial",
+    "slug": "diseno-industrial",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "diseno profesional",
+      "diseno industrial",
+      "ingenieria de diseno",
+      "disenador industrial",
+      "productos industriales",
+      "innovacion de productos",
+      "diseno de producto"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 16,
+    "name": "Diseño de Modas",
+    "slug": "diseno-de-modas",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "confecciones",
+      "gestion de modas",
+      "vestuario",
+      "diseno de modas",
+      "alta costura",
+      "industria textil",
+      "moda",
+      "disenador de modas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 17,
+    "name": "Diseño de Interiores",
+    "slug": "diseno-de-interiores",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "interiores",
+      "diseno de interiores",
+      "interiorismo",
+      "espacios interiores",
+      "ambientacion interior"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 18,
+    "name": "Arte",
+    "slug": "arte",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "artes plasticas",
+      "pintura",
+      "conservacion y restauracion",
+      "acuarela",
+      "historia del arte",
+      "escultura",
+      "grabado",
+      "difusion cultural",
+      "artes visuales",
+      "arte",
+      "patrimonio cultural",
+      "gestion cultural"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 19,
+    "name": "Artes Plásticas",
+    "slug": "artes-plasticas",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "artes plasticas",
+      "pintura",
+      "escultura",
+      "grabado",
+      "artista plastico",
+      "artes visuales",
+      "bellas artes"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 20,
+    "name": "Artesanía y Manualidades",
+    "slug": "artesania-y-manualidades",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "orfebreria",
+      "joyeria",
+      "tejido artesanal",
+      "arte popular",
+      "reparacion de instrumentos",
+      "fabricacion de instrumentos musicales",
+      "ceramica artesanal",
+      "artesania de vidrio",
+      "tallado en madera",
+      "manualidades",
+      "pirograbado",
+      "artesania",
+      "plateria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 21,
+    "name": "Artes Escénicas",
+    "slug": "artes-escenicas",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "actor",
+      "arte dramatico",
+      "actriz",
+      "teatro y danza",
+      "artes escenicas",
+      "actuacion",
+      "folklore",
+      "produccion escenica",
+      "teatro",
+      "escenografia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 22,
+    "name": "Música",
+    "slug": "musica",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "instrumentista",
+      "canto",
+      "direccion de orquesta",
+      "musica",
+      "interpretacion musical",
+      "composicion musical",
+      "direccion de coro",
+      "musico",
+      "musicologia",
+      "etnomusicologia",
+      "produccion musical",
+      "educacion musical"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 23,
+    "name": "Danza",
+    "slug": "danza",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "danza peruana",
+      "danza contemporanea",
+      "bailarin",
+      "coreografia",
+      "bailarina",
+      "danza folklorica",
+      "danza"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 24,
+    "name": "Filosofía",
+    "slug": "filosofia",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "filosofia",
+      "etica",
+      "filosofa",
+      "antropologia filosofica",
+      "filosofo",
+      "pensamiento critico",
+      "filosofia y psicologia",
+      "filosofia y teologia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 25,
+    "name": "Historia",
+    "slug": "historia",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "historiador",
+      "historia y geografia",
+      "historia y gestion cultural",
+      "preservacion del patrimonio historico",
+      "patrimonio historico",
+      "historiadora",
+      "estudios historicos",
+      "historia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 26,
+    "name": "Arqueología",
+    "slug": "arqueologia",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "arqueologo",
+      "arqueologa",
+      "patrimonio arqueologico",
+      "arqueologia",
+      "estudios prehispanicos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 27,
+    "name": "Religión y Teología",
+    "slug": "religion-y-teologia",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "vocacion religiosa",
+      "religion",
+      "teologia",
+      "teologo",
+      "ministerio pastoral",
+      "estudios religiosos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 28,
+    "name": "Idiomas",
+    "slug": "idiomas",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "idiomas y turismo",
+      "ensenanza de idiomas",
+      "quechua",
+      "idiomas",
+      "enseñanza de idiomas",
+      "portugues",
+      "ingles",
+      "frances",
+      "lenguas extranjeras"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 29,
+    "name": "Traducción e Interpretación",
+    "slug": "traduccion-e-interpretacion",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "traduccion",
+      "interpretacion",
+      "traductor",
+      "interpretacion de idiomas",
+      "traduccion de documentos",
+      "traduccion e interpretacion",
+      "interprete"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 30,
+    "name": "Lingüística",
+    "slug": "linguistica",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "produccion de textos",
+      "linguistica",
+      "comprension de textos",
+      "lengua",
+      "linguista",
+      "linguistica aplicada",
+      "estudios del lenguaje",
+      "linguistica andina",
+      "filologia",
+      "linguistica inglesa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 31,
+    "name": "Literatura",
+    "slug": "literatura",
+    "category": "02_arte_y_humanidades",
+    "keywords": [
+      "literatura",
+      "escritor",
+      "literatura comparada",
+      "literatura infantil y juvenil",
+      "escritura creativa",
+      "literatura hispanica",
+      "literatura peruana",
+      "letras",
+      "literatura hispanoamericana",
+      "analisis literario",
+      "escritora"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 32,
+    "name": "Ciencias de la Comunicación",
+    "slug": "ciencias-de-la-comunicacion",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "comunicacion social",
+      "comunicaciones",
+      "comunicacion masiva",
+      "locucion",
+      "edicion",
+      "publicidad",
+      "periodismo",
+      "relaciones publicas",
+      "periodismo televisivo",
+      "comunicador social",
+      "ciencias de la comunicacion",
+      "informacion redaccion y contenido",
+      "comunicacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 33,
+    "name": "Bibliotecología y Archivística",
+    "slug": "bibliotecologia-y-archivistica",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "gestion documental",
+      "ciencias de la informacion",
+      "bibliotecario",
+      "archivo",
+      "estudios bibliotecarios",
+      "archivologia",
+      "archivistica",
+      "museologia",
+      "bibliotecologia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 34,
+    "name": "Sociología",
+    "slug": "sociologia",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "demografia",
+      "gerencia social",
+      "estudios culturales",
+      "desarrollo social",
+      "poblacion",
+      "ciencias sociales",
+      "sociologia",
+      "sociologa",
+      "sociologia y estudios culturales",
+      "sociologo",
+      "estudios de genero"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 35,
+    "name": "Antropología",
+    "slug": "antropologia",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "antropologia ambiental",
+      "antropologa",
+      "antropologo",
+      "antropologia",
+      "antropologia social",
+      "cultura social",
+      "antropologia turismo"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 36,
+    "name": "Psicología",
+    "slug": "psicologia",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "psicologa",
+      "psicologia clinica",
+      "psicologia industrial",
+      "psicologo",
+      "psicologia comunitaria",
+      "neuropsicologia",
+      "psicologia",
+      "psicologia organizacional",
+      "psicologia educativa",
+      "psicoanalisis",
+      "psicoterapia",
+      "ciencia cognitiva",
+      "salud mental"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 37,
+    "name": "Ciencia Política",
+    "slug": "ciencia-politica",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "ciencia politica",
+      "analista politico",
+      "ciencias politicas",
+      "gobierno",
+      "politologia",
+      "estudios de politica publica",
+      "politica publica",
+      "derechos humanos",
+      "politica",
+      "historia politica",
+      "gobernabilidad"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 38,
+    "name": "Economía",
+    "slug": "economia",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "economista",
+      "economia publica",
+      "economia",
+      "finanzas corporativas",
+      "economia agraria",
+      "historia economica",
+      "ciencias economicas",
+      "economia politica",
+      "microfinanzas",
+      "analisis economico",
+      "econometria",
+      "economia internacional"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 39,
+    "name": "Ingeniería Económica",
+    "slug": "ingenieria-economica",
+    "category": "03_ciencias_sociales_periodismo_e_informacion",
+    "keywords": [
+      "ingenieria economica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 40,
+    "name": "Derecho",
+    "slug": "derecho",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "derecho privado",
+      "investigacion juridica",
+      "derecho bancario",
+      "abogado",
+      "ciencias forenses",
+      "derecho internacional economico",
+      "derecho familiar",
+      "derecho administrativo",
+      "criminalistica",
+      "derecho empresarial",
+      "derecho",
+      "diplomacia",
+      "abogada",
+      "derecho comercial",
+      "derecho civil",
+      "derecho procesal",
+      "derecho minero",
+      "derecho notarial y registral",
+      "derecho penal",
+      "ciencias juridicas",
+      "jurisprudencia",
+      "mediacion juridica",
+      "derecho de los negocios",
+      "derecho corporativo",
+      "derecho laboral"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 41,
+    "name": "Administración",
+    "slug": "administracion",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "gestion de negocios",
+      "ciencias de la administracion",
+      "ingenieria de negocios",
+      "emprendimiento",
+      "administracion general",
+      "administradora",
+      "ingenieria empresarial",
+      "gestion empresarial",
+      "ingenieria comercial",
+      "gestion estrategica",
+      "administracion",
+      "gestion y alta direccion",
+      "administrador"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 42,
+    "name": "Administración de Empresas",
+    "slug": "administracion-de-empresas",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "gerencia empresarial",
+      "administracion de empresas",
+      "gerencia de empresas",
+      "direccion empresarial",
+      "direccion de empresas",
+      "empresa privada"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 43,
+    "name": "Contabilidad",
+    "slug": "contabilidad",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "contabilidad tributaria",
+      "contabilidad gerencial",
+      "finanzas contables",
+      "contabilidad",
+      "contabilidad financiera",
+      "contador",
+      "contabilidad administrativa",
+      "gestion fiscal",
+      "teneduria de libros",
+      "auditoria",
+      "costos y presupuestos",
+      "ciencias contables",
+      "impuestos",
+      "contadora"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 44,
+    "name": "Marketing",
+    "slug": "marketing",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "gestion de marketing",
+      "mercadeo",
+      "comportamiento del consumidor",
+      "marketing",
+      "investigacion de mercado",
+      "publicidad",
+      "relaciones publicas",
+      "publicidad comercial",
+      "mercadotecnia",
+      "ventas",
+      "comercializacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 45,
+    "name": "Negocios Internacionales",
+    "slug": "negocios-internacionales",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "negocios internacionales",
+      "negociacion internacional",
+      "comercio internacional",
+      "puertos y aduanas",
+      "negocios globales",
+      "logistica internacional",
+      "relaciones internacionales",
+      "relaciones comerciales"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 46,
+    "name": "Comercio Exterior",
+    "slug": "comercio-exterior",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "exportaciones",
+      "comercio internacional",
+      "negocios globales",
+      "aduanas",
+      "comercio exterior",
+      "importaciones"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 47,
+    "name": "Banca y Finanzas",
+    "slug": "banca-y-finanzas",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "gestion financiera",
+      "microfinanzas",
+      "analista financiero",
+      "finanzas empresariales",
+      "banca y finanzas",
+      "analisis de inversiones",
+      "inversiones y valores",
+      "banca",
+      "sector bancario",
+      "finanzas",
+      "teoria financiera"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 48,
+    "name": "Seguros",
+    "slug": "seguros",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "seguros",
+      "riesgos financieros",
+      "seguro social",
+      "banca y seguros"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 49,
+    "name": "Gestión Pública",
+    "slug": "gestion-publica",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "planificacion economica regional",
+      "gestion publica",
+      "administracion publica",
+      "auditoria gubernamental",
+      "control gubernamental",
+      "funcion publica",
+      "gobiernos regionales y locales",
+      "gestion estatal",
+      "gestion municipal",
+      "sector publico",
+      "gerencia publica",
+      "gobernabilidad"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 50,
+    "name": "Gestión de Recursos Humanos",
+    "slug": "gestion-de-recursos-humanos",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "direccion de personas",
+      "capital humano",
+      "direccion del talento humano",
+      "relaciones industriales",
+      "administracion de personal",
+      "gestion del conocimiento",
+      "administracion de recursos humanos",
+      "relaciones laborales",
+      "rrhh",
+      "recursos humanos",
+      "gestion de talento"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 51,
+    "name": "Logística y Cadena de Suministro",
+    "slug": "logistica-y-cadena-de-suministro",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "abastecimiento",
+      "almacen",
+      "cadena de suministro",
+      "gestion de suministro",
+      "gestion logistica",
+      "ingenieria logistica",
+      "supply chain",
+      "logistica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 52,
+    "name": "Gestión de Seguridad y Riesgos",
+    "slug": "gestion-de-seguridad-y-riesgos",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "seguridad corporativa",
+      "gestion de riesgos",
+      "seguridad empresarial",
+      "gestion de seguridad y riesgos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 53,
+    "name": "Cooperativismo",
+    "slug": "cooperativismo",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "cooperativismo",
+      "economia social",
+      "cooperativa"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 54,
+    "name": "Administración Bancaria",
+    "slug": "administracion-bancaria",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "banca",
+      "negocios bancarios",
+      "administracion bancaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 55,
+    "name": "Contabilidad Técnica",
+    "slug": "contabilidad-tecnica",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "contabilidad tecnica",
+      "tecnico contable"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 56,
+    "name": "Marketing Técnico",
+    "slug": "marketing-tecnico",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "marketing tecnico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 57,
+    "name": "Secretariado",
+    "slug": "secretariado",
+    "category": "04_ciencias_administrativas_y_derecho",
+    "keywords": [
+      "mecanografia",
+      "operacion de equipos de oficina",
+      "servicios secretariales",
+      "recepcionista",
+      "secretariado ejecutivo",
+      "secretaria",
+      "asistente ejecutivo",
+      "secretariado legal",
+      "taquigrafia",
+      "secretariado",
+      "secretario",
+      "secretariado medico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 58,
+    "name": "Matemática",
+    "slug": "matematica",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "matematica",
+      "matematica pura",
+      "algebra",
+      "estadistica matematica",
+      "analisis matematico",
+      "geometria",
+      "analisis numerico",
+      "matematicas",
+      "matematico",
+      "ciencias actuariales"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 59,
+    "name": "Estadística",
+    "slug": "estadistica",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "estadistica aplicada",
+      "estadistica teorica",
+      "bioestadistica",
+      "diseno de encuestas",
+      "estadistica",
+      "muestreo de encuestas",
+      "analitica",
+      "ciencias estadisticas",
+      "analisis estadistico",
+      "estadistico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 60,
+    "name": "Investigación Operativa",
+    "slug": "investigacion-operativa",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "programacion no lineal",
+      "investigacion operativa",
+      "teoria de grafos",
+      "simulacion",
+      "programacion dinamica",
+      "programacion lineal",
+      "teoria de inventarios"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 61,
+    "name": "Física",
+    "slug": "fisica",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "fisica aplicada",
+      "fisica teorica",
+      "fisica",
+      "astronomia",
+      "fisico",
+      "fisica medica",
+      "optica",
+      "ciencias fisicas",
+      "astrofisica",
+      "fisica nuclear"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 62,
+    "name": "Química",
+    "slug": "quimica",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "quimica",
+      "procesos quimicos",
+      "quimica matematica",
+      "quimica inorganica",
+      "quimica fisica",
+      "quimica industrial",
+      "quimica ambiental",
+      "quimica organica",
+      "quimica aplicada",
+      "quimica textil",
+      "quimica pura",
+      "quimico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 63,
+    "name": "Biología",
+    "slug": "biologia",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "botanica",
+      "micologia",
+      "biologia",
+      "bioquimica de organismos vivos",
+      "microbiologia",
+      "entomologia",
+      "biologo",
+      "biologia celular",
+      "ciencias biologicas",
+      "zoologia",
+      "genetica",
+      "biologia molecular",
+      "oceanografia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 64,
+    "name": "Ciencias Ambientales",
+    "slug": "ciencias-ambientales",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "desarrollo ambiental",
+      "conservacion de la naturaleza",
+      "ciencias ambientales",
+      "medio ambiente",
+      "investigacion sobre el clima",
+      "desarrollo rural y ambiental",
+      "ecologia",
+      "gestion ambiental"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 65,
+    "name": "Ingeniería Ambiental",
+    "slug": "ingenieria-ambiental",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "ingenieria ambiental",
+      "impacto ambiental",
+      "prevencion de riesgos ambientales",
+      "medio ambiente",
+      "recursos naturales",
+      "ingeniero ambiental",
+      "bosques tropicales",
+      "gestion ambiental",
+      "conservacion de suelos y aguas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 66,
+    "name": "Recursos Hídricos",
+    "slug": "recursos-hidricos",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "hidrologia",
+      "gestion del agua",
+      "ingenieria hidraulica",
+      "riego y drenaje",
+      "recursos hidricos",
+      "tratamiento de agua"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 67,
+    "name": "Ciencias de la Tierra",
+    "slug": "ciencias-de-la-tierra",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "geologia",
+      "geografia",
+      "ingenieria aerofotografica",
+      "ciencias de la tierra",
+      "geomatica",
+      "geodesia",
+      "meteorologia",
+      "geotecnia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 68,
+    "name": "Ingeniería Geológica",
+    "slug": "ingenieria-geologica",
+    "category": "05_ciencias_naturales_matematicas_y_estadistica",
+    "keywords": [
+      "ingeniero geologo",
+      "geologia",
+      "exploracion geologica",
+      "ingenieria geologica",
+      "geomatica",
+      "geotecnia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 69,
+    "name": "Ciencias de la Computación",
+    "slug": "ciencias-de-la-computacion",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "computacion",
+      "ciencia computacional",
+      "computacion cientifica",
+      "ciencias de la computacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 70,
+    "name": "Ingeniería de Sistemas",
+    "slug": "ingenieria-de-sistemas",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "sistemas de informacion",
+      "ingenieria de sistemas",
+      "sistemas computacionales",
+      "modelamiento de sistemas",
+      "ingeniero de sistemas",
+      "sistemas",
+      "sistemas informaticos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 71,
+    "name": "Ingeniería Informática",
+    "slug": "ingenieria-informatica",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "ingeniero informatico",
+      "ingenieria informatica",
+      "administracion de tecnologia de informacion",
+      "informatica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 72,
+    "name": "Ingeniería de Software",
+    "slug": "ingenieria-de-software",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "desarrollo de software",
+      "ingenieria de software",
+      "ingeniero de software",
+      "programador",
+      "desarrollador de software"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 73,
+    "name": "Sistemas y Cómputo",
+    "slug": "sistemas-y-computo",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "auditoria informatica",
+      "sistemas y computo",
+      "bases de datos",
+      "gestion y administracion de sistemas de informacion",
+      "auditoria de sistemas",
+      "soporte de sistemas y redes",
+      "administrador de bases de datos",
+      "arquitectura de plataformas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 74,
+    "name": "Computación e Informática",
+    "slug": "computacion-e-informatica",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "computacion e informatica",
+      "digitacion",
+      "operacion de computadoras",
+      "ofimatica",
+      "tecnico en computacion",
+      "operacion de programas de computacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 75,
+    "name": "Ciencia de Datos",
+    "slug": "ciencia-de-datos",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "analitica de datos",
+      "data science",
+      "ciencia de datos",
+      "ingenieria de datos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 76,
+    "name": "Ciberseguridad",
+    "slug": "ciberseguridad",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "seguridad de la informacion",
+      "seguridad en tecnologia informatica",
+      "seguridad informatica",
+      "ciberseguridad"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 77,
+    "name": "Redes y Comunicaciones",
+    "slug": "redes-y-comunicaciones",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "administracion de red",
+      "redes y comunicaciones",
+      "diseno de redes",
+      "instalacion y mantenimiento de redes informaticas",
+      "teleinformatica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 78,
+    "name": "Ingeniería de Telecomunicaciones",
+    "slug": "ingenieria-de-telecomunicaciones",
+    "category": "06_tecnologia_de_la_informacion_y_la_comunicacion",
+    "keywords": [
+      "telematica",
+      "telecomunicaciones",
+      "control de transito aereo",
+      "procesamiento de señales",
+      "ingenieria en telecomunicaciones",
+      "redes de comunicacion",
+      "comunicaciones digitales"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 79,
+    "name": "Ingeniería Civil",
+    "slug": "ingenieria-civil",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "construccion",
+      "estructuras",
+      "ingeniero civil",
+      "ingenieria estructural",
+      "ingenieria vial",
+      "ingenieria hidraulica",
+      "gerencia de obras",
+      "obras civiles",
+      "suelos concreto y asfaltos",
+      "ingenieria civil"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 80,
+    "name": "Construcción Civil",
+    "slug": "construccion-civil",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "tecnologia de la construccion",
+      "mantenimiento de edificaciones",
+      "gasfiteria",
+      "construccion civil",
+      "direccion y administracion de la construccion",
+      "constructor civil",
+      "albanileria",
+      "ingenieria de la construccion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 81,
+    "name": "Arquitectura",
+    "slug": "arquitectura",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "proyectos arquitectonicos",
+      "restauracion de monumentos historicos",
+      "arquitecta",
+      "diseno arquitectonico",
+      "arquitecto",
+      "arquitectura",
+      "arquitectura estructural",
+      "arquitectura de interiores"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 82,
+    "name": "Urbanismo y Diseño Urbano",
+    "slug": "urbanismo-y-diseno-urbano",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "planificacion urbana",
+      "gestion territorial",
+      "territorio y urbanismo sostenible",
+      "diseno urbano",
+      "desarrollo urbano",
+      "urbanismo",
+      "ordenamiento territorial",
+      "regeneracion urbana"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 83,
+    "name": "Paisajismo",
+    "slug": "paisajismo",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "arquitectura del paisaje",
+      "paisajismo",
+      "diseno del paisaje",
+      "diseno ambiental",
+      "espacios verdes"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 84,
+    "name": "Topografía",
+    "slug": "topografia",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "agrimensura",
+      "ingenieria topografica",
+      "topografia",
+      "levantamiento topografico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 85,
+    "name": "Edificaciones",
+    "slug": "edificaciones",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "gestion inmobiliaria",
+      "vivienda colectiva",
+      "desarrollo inmobiliario",
+      "edificaciones inteligentes",
+      "edificaciones"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 86,
+    "name": "Ingeniería Sanitaria",
+    "slug": "ingenieria-sanitaria",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "gestion de residuos solidos",
+      "aguas residuales",
+      "eliminacion de desechos",
+      "abastecimiento de agua potable",
+      "alcantarillado sanitario",
+      "ingenieria sanitaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 87,
+    "name": "Ingeniería Industrial",
+    "slug": "ingenieria-industrial",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "sistemas integrados para la calidad",
+      "cadena de suministro",
+      "ingenieria de procesos",
+      "direccion y gerencia de operaciones",
+      "gestion industrial",
+      "productividad",
+      "aseguramiento de la calidad",
+      "ingenieria industrial",
+      "ingeniero industrial",
+      "procesos industriales",
+      "procesos de produccion industrial"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 88,
+    "name": "Ingeniería Electrónica",
+    "slug": "ingenieria-electronica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "procesamiento digital de señales",
+      "ingeniero electronico",
+      "microelectronica",
+      "ingenieria de control",
+      "electronica",
+      "electronica aplicada",
+      "ingenieria electronica",
+      "circuitos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 89,
+    "name": "Electrónica Industrial",
+    "slug": "electronica-industrial",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "electronica industrial",
+      "controlista de maquinas y procesos industriales",
+      "instrumentacion industrial",
+      "mantenimiento electronico industrial"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 90,
+    "name": "Mecatrónica y Automatización",
+    "slug": "mecatronica-y-automatizacion",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "bioingenieria",
+      "ingenieria de control",
+      "mecatronica",
+      "biomedica",
+      "automatizacion y control",
+      "robotica",
+      "automatizacion",
+      "edificios inteligentes",
+      "control de procesos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 91,
+    "name": "Ingeniería Eléctrica",
+    "slug": "ingenieria-electrica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "ingeniero electrico",
+      "electricidad industrial",
+      "sistemas electricos",
+      "ingenieria electrica",
+      "sistemas electricos de potencia",
+      "electrotecnia",
+      "generacion de energia electrica",
+      "instalacion y mantenimiento de lineas electricas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 92,
+    "name": "Electricista",
+    "slug": "electricista",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "electricista",
+      "electricidad comercial",
+      "electrotecnica",
+      "mantenimiento electrico",
+      "electricista industrial",
+      "instalacion electrica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 93,
+    "name": "Ingeniería en Energías Renovables",
+    "slug": "ingenieria-en-energias-renovables",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "tecnologia energetica",
+      "energias renovables",
+      "energia hidraulica",
+      "tecnologias limpias",
+      "energia solar",
+      "gestion de la energia",
+      "energia eolica",
+      "energia termica",
+      "ingeniero en energias"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 94,
+    "name": "Ingeniería Química",
+    "slug": "ingenieria-quimica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "industria quimica",
+      "procesos quimicos",
+      "ingenieria quimica",
+      "ingeniero quimico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 95,
+    "name": "Ingeniería Mecánica",
+    "slug": "ingenieria-mecanica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "mantenimiento de maquinaria",
+      "ingeniero mecanico",
+      "ingenieria mecanica",
+      "motores",
+      "mecanica industrial",
+      "mecanica de fluidos",
+      "mecanica de maquinas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 96,
+    "name": "Ingeniería Electromecánica",
+    "slug": "ingenieria-electromecanica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "sistemas electromecanicos",
+      "electromecanica",
+      "maquinas electricas",
+      "ingenieria electromecanica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 97,
+    "name": "Mecánica de Producción",
+    "slug": "mecanica-de-produccion",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "fabricacion de herramientas y troqueles",
+      "manufactura",
+      "tecnico mecanico",
+      "cnc",
+      "mecanizado",
+      "mecanica de produccion",
+      "torneado"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 98,
+    "name": "Mecánica Automotriz",
+    "slug": "mecanica-automotriz",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "autotronica",
+      "motores y vehiculos",
+      "mecanica automotriz",
+      "mantenimiento de vehiculos motorizados",
+      "automotriz"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 99,
+    "name": "Ingeniería de Materiales y Metalúrgica",
+    "slug": "ingenieria-de-materiales-y-metalurgica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "materiales metalicos",
+      "ingenieria metalurgica",
+      "materiales no metalicos",
+      "geometalurgia",
+      "ingenieria de materiales",
+      "metalurgia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 100,
+    "name": "Soldadura y Metalmecánica",
+    "slug": "soldadura-y-metalmecanica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "metalmecanica",
+      "metal laminado",
+      "modeleria y fundicion",
+      "matriceria",
+      "soldadura",
+      "construcciones metalicas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 101,
+    "name": "Ingeniería Agroindustrial",
+    "slug": "ingenieria-agroindustrial",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "procesamiento de alimentos",
+      "agroalimentaria",
+      "agroindustria",
+      "ingeniero agroindustrial",
+      "ingenieria agroindustrial"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 102,
+    "name": "Ingeniería en Industrias Alimentarias",
+    "slug": "ingenieria-en-industrias-alimentarias",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "procesamiento de alimentos",
+      "tecnologia de alimentos",
+      "seguridad alimentaria",
+      "ciencia y tecnologia de los alimentos",
+      "ingenieria en alimentos",
+      "conservacion de alimentos",
+      "industrias alimentarias",
+      "control alimentario"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 103,
+    "name": "Ingeniería Textil y Confecciones",
+    "slug": "ingenieria-textil-y-confecciones",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "confecciones",
+      "gestion de modas y confecciones",
+      "diseno y produccion textil",
+      "hilado",
+      "bordados",
+      "tapiceria",
+      "industria textil",
+      "produccion textil",
+      "ingenieria textil",
+      "tintoreria textil",
+      "tecnologia textil"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 104,
+    "name": "Ingeniería de Minas",
+    "slug": "ingenieria-de-minas",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "explotacion minera",
+      "ingeniero de minas",
+      "gestion minera",
+      "ingenieria de minas",
+      "tecnologia minera",
+      "concentracion de minerales",
+      "geomecanica minera",
+      "operaciones mineras",
+      "mineria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 105,
+    "name": "Ingeniería de Petróleo",
+    "slug": "ingenieria-de-petroleo",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "extraccion de gas",
+      "ingenieria de petroleo",
+      "petroquimica",
+      "operaciones de perforacion",
+      "industria petrolera",
+      "petroleo y gas natural",
+      "extraccion de petroleo",
+      "ingeniero de petroleo"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 106,
+    "name": "Ingeniería Naval y Aeronáutica",
+    "slug": "ingenieria-naval-y-aeronautica",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "ingenieria naval",
+      "ingenieria aeronautica",
+      "construccion naval",
+      "maquinas navales",
+      "mantenimiento de aeronaves",
+      "marina mercante",
+      "avionica",
+      "ingenieria aeroespacial",
+      "ingenieria maritima"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 107,
+    "name": "Operación de Maquinaria Pesada",
+    "slug": "operacion-de-maquinaria-pesada",
+    "category": "07_ingenieria_industria_y_construccion",
+    "keywords": [
+      "maquinaria pesada",
+      "operador de maquinaria pesada",
+      "supervision de equipos de mineria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 108,
+    "name": "Agronomía",
+    "slug": "agronomia",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "fruticultura",
+      "caficultura",
+      "desarrollo agrario",
+      "ingeniero agronomo",
+      "manejo integrado de plagas",
+      "agronomia",
+      "agroforestal",
+      "ciencias agrarias",
+      "sanidad vegetal",
+      "viticultura",
+      "agricultura",
+      "produccion agricola"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 109,
+    "name": "Ingeniería Agrícola",
+    "slug": "ingenieria-agricola",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "manejo de instalaciones y equipos agricolas",
+      "tecnologia agricola",
+      "ingenieria agricola",
+      "infraestructura agricola",
+      "ingeniero agricola",
+      "riego drenaje"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 110,
+    "name": "Agropecuaria",
+    "slug": "agropecuaria",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "produccion animal",
+      "agropecuaria",
+      "produccion agricola y ganadera",
+      "produccion y salud animal",
+      "ganaderia",
+      "ciencias pecuarias"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 111,
+    "name": "Zootecnia",
+    "slug": "zootecnia",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "nutricion animal",
+      "produccion animal",
+      "zootecnista",
+      "ciencia animal",
+      "produccion de rumiantes",
+      "avicultura",
+      "zootecnia",
+      "ganaderia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 112,
+    "name": "Horticultura",
+    "slug": "horticultura",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "manejo de viveros",
+      "floricultura",
+      "horticultura",
+      "tecnicas horticolas",
+      "jardineria",
+      "cultivo de cesped",
+      "conservacion verde"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 113,
+    "name": "Ingeniería Forestal",
+    "slug": "ingenieria-forestal",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "manejo forestal",
+      "bosques",
+      "conservacion forestal",
+      "ciencias forestales",
+      "ingenieria forestal",
+      "ingeniero forestal",
+      "productos forestales"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 114,
+    "name": "Silvicultura",
+    "slug": "silvicultura",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "explotacion forestal",
+      "bosque y gestion de recursos forestales",
+      "reforestacion",
+      "silvicultura",
+      "forestacion",
+      "tala de arboles"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 115,
+    "name": "Ingeniería Agrónoma",
+    "slug": "ingenieria-agronoma",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "ingenieria agronoma"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 116,
+    "name": "Ingeniería Pesquera",
+    "slug": "ingenieria-pesquera",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "ingenieria pesquera",
+      "ciencia y tecnologia de la pesca",
+      "pesca industrial",
+      "tecnologia pesquera",
+      "gestion pesquera",
+      "ciencias del mar",
+      "pesqueria",
+      "recursos hidrobiologicos",
+      "hidrobiologia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 117,
+    "name": "Acuicultura",
+    "slug": "acuicultura",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "extraccion pesquera",
+      "ecosistemas y recursos acuaticos",
+      "acuicultura",
+      "ingenieria acuicola",
+      "sanidad acuicola"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 118,
+    "name": "Veterinaria",
+    "slug": "veterinaria",
+    "category": "08_agricultura_silvicultura_pesca_y_veterinaria",
+    "keywords": [
+      "ciencia veterinaria",
+      "asistencia veterinaria",
+      "veterinaria",
+      "patologia veterinaria",
+      "salud animal",
+      "epidemiologia de origen animal",
+      "medicina veterinaria",
+      "medico veterinario",
+      "veterinario"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 119,
+    "name": "Medicina Humana",
+    "slug": "medicina-humana",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "medicina rural",
+      "cirugia",
+      "medicina legal y forense",
+      "infectologia",
+      "ciencias de la salud",
+      "salud general",
+      "medicina quirurgica",
+      "medicina humana",
+      "salud humana",
+      "doctor",
+      "medicina",
+      "medicina integral",
+      "anestesiologia",
+      "enfermedades infecciosas y tropicales",
+      "medico",
+      "doctora",
+      "paramedico"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 120,
+    "name": "Enfermería",
+    "slug": "enfermeria",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "enfermeria en cuidados intensivos",
+      "enfermeria",
+      "inyectables y primeros auxilios",
+      "enfermero",
+      "terapia intensiva en enfermeria",
+      "enfermeria en la salud de la mujer y el niño",
+      "auxiliar de enfermeria",
+      "cuidados de salud",
+      "enfermera",
+      "gestion en enfermeria",
+      "enfermeria familiar y comunitaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 121,
+    "name": "Odontología",
+    "slug": "odontologia",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "cirujano dental",
+      "estomatologia",
+      "odontopediatria",
+      "odontologo",
+      "implantologia oral",
+      "periodoncia",
+      "ciencias estomatologicas",
+      "asistencia dental",
+      "rehabilitacion oral",
+      "higiene dental",
+      "cirugia bucal",
+      "odontologia",
+      "protesis dental",
+      "odontologa",
+      "dentista",
+      "ortodoncia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 122,
+    "name": "Obstetricia",
+    "slug": "obstetricia",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "obstetra",
+      "atencion materna",
+      "salud reproductiva",
+      "bienestar fetal",
+      "obstetricia",
+      "partos",
+      "puericultura",
+      "emergencias obstetricas",
+      "riesgo obstetrico",
+      "salud materno perinatal",
+      "psicoprofilaxis obstetrica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 123,
+    "name": "Tecnología Médica",
+    "slug": "tecnologia-medica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "tecnologia de diagnostico",
+      "tecnologia de laboratorio clinico",
+      "ecografia",
+      "optometria",
+      "medicina nuclear",
+      "laboratorio clinico",
+      "tecnologia medica",
+      "radiologia",
+      "banco de sangre y hemoterapia",
+      "tecnologo medico",
+      "resonancia magnetica",
+      "radiodiagnostico",
+      "patologia",
+      "tomografia",
+      "imagenologia",
+      "radioterapia",
+      "equipos electromedicos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 124,
+    "name": "Terapia y Rehabilitación",
+    "slug": "terapia-y-rehabilitacion",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "terapia del lenguaje",
+      "terapia ocupacional",
+      "ortopedia",
+      "medicina fisica",
+      "rehabilitacion",
+      "terapia fisica",
+      "fonoaudiologia",
+      "rehabilitacion fisica",
+      "fisioterapia",
+      "terapia y rehabilitacion"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 125,
+    "name": "Farmacia y Bioquímica",
+    "slug": "farmacia-y-bioquimica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "farmacia",
+      "ciencias farmaceuticas",
+      "bromatologia",
+      "farmaceutico",
+      "tecnologia farmaceutica",
+      "farmacocinetica",
+      "farmacia clinica",
+      "farmacologia",
+      "regulacion farmaceutica",
+      "toxicologia",
+      "quimico farmaceutico",
+      "bioquimica",
+      "productos naturales terapeuticos"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 126,
+    "name": "Nutrición",
+    "slug": "nutricion",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "nutricion clinica",
+      "diabetes y obesidad",
+      "alimentacion saludable",
+      "soporte nutricional",
+      "gestion alimentaria",
+      "nutricionista",
+      "manejo nutricional",
+      "bromatologia y nutricion",
+      "nutricion",
+      "dietetica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 127,
+    "name": "Salud Pública",
+    "slug": "salud-publica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "epidemiologia",
+      "prevencion de its",
+      "salud global",
+      "gestion en salud",
+      "promocion comunal",
+      "salud publica",
+      "sanidad publica",
+      "salud colectiva",
+      "prevencion de vih",
+      "promocion de la salud"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 128,
+    "name": "Trabajo Social",
+    "slug": "trabajo-social",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "inclusion social",
+      "asesoramiento familiar",
+      "bienestar social",
+      "familia y redes sociales",
+      "trabajo social",
+      "intervencion social",
+      "trabajadora social",
+      "trabajador social",
+      "asistente social",
+      "servicio social",
+      "desarrollo local"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 129,
+    "name": "Gerontología y Cuidado del Adulto Mayor",
+    "slug": "gerontologia-y-cuidado-del-adulto-mayor",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "cuidado del adulto mayor",
+      "gerontologia",
+      "enfermeria en cuidado del adulto mayor",
+      "gerontologia social",
+      "cuidado personal del adulto mayor",
+      "geriatria",
+      "personas con discapacidad",
+      "asistente del adulto mayor"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 130,
+    "name": "Cuidado Infantil y Servicios para Jóvenes",
+    "slug": "cuidado-infantil-y-servicios-para-jovenes",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "cuidado de niños",
+      "cuidado no medico de niños",
+      "crecimiento y desarrollo",
+      "guarderia",
+      "servicios para jovenes",
+      "adolescente",
+      "salud mental del niño y adolescente",
+      "desarrollo integral del niño",
+      "asistente de niños"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 131,
+    "name": "Ingeniería Biomédica",
+    "slug": "ingenieria-biomedica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "bioinformatica",
+      "genetica y biotecnologia",
+      "equipos electromedicos",
+      "ingenieria biomedica",
+      "ingenieria biotecnologica molecular"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 132,
+    "name": "Administración y Gestión en Salud",
+    "slug": "administracion-y-gestion-en-salud",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "gestion de servicios de salud",
+      "atencion integral en salud",
+      "direccion y gestion de servicios de salud",
+      "administracion hospitalaria",
+      "salud intercultural",
+      "auditoria medica",
+      "proyectos de salud"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 133,
+    "name": "Enfermería Técnica",
+    "slug": "enfermeria-tecnica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "tecnico en enfermeria",
+      "enfermeria tecnica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 134,
+    "name": "Farmacia Técnica",
+    "slug": "farmacia-tecnica",
+    "category": "09_salud_y_bienestar",
+    "keywords": [
+      "farmacia tecnica",
+      "tecnico en farmacia"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 135,
+    "name": "Cosmetología y Estética",
+    "slug": "cosmetologia-y-estetica",
+    "category": "00_servicios",
+    "keywords": [
+      "peluqueria",
+      "terapia de la belleza",
+      "cuidado de manos y pies",
+      "manicura",
+      "cosmiatria",
+      "pedicura",
+      "estetica facial",
+      "barberia",
+      "cosmetologia",
+      "maquillaje"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 136,
+    "name": "Ciencias del Deporte",
+    "slug": "ciencias-del-deporte",
+    "category": "00_servicios",
+    "keywords": [
+      "actividad fisica",
+      "arbitraje deportivo",
+      "ciencias del deporte",
+      "tecnicas y habilidades deportivas",
+      "gestion deportiva",
+      "kinesiologia",
+      "entrenamiento deportivo",
+      "cultura fisica"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 137,
+    "name": "Saneamiento y Salud Comunitaria",
+    "slug": "saneamiento-y-salud-comunitaria",
+    "category": "00_servicios",
+    "keywords": [
+      "epidemiologia",
+      "inmunologia",
+      "prevencion de its",
+      "salud publica y salud global",
+      "promocion comunal",
+      "saneamiento de la comunidad",
+      "salud colectiva",
+      "investigacion epidemiologica",
+      "prevencion de vih"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 138,
+    "name": "Seguridad y Salud en el Trabajo",
+    "slug": "seguridad-y-salud-en-el-trabajo",
+    "category": "00_servicios",
+    "keywords": [
+      "seguridad y salud ocupacional",
+      "proteccion del trabajador",
+      "seguridad y salud en el trabajo",
+      "prevencion de riesgos laborales",
+      "higiene y seguridad industrial",
+      "seguridad laboral",
+      "ergonomia laboral",
+      "gestion integral en seguridad ocupacional"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 139,
+    "name": "Ciencias Militares y Defensa",
+    "slug": "ciencias-militares-y-defensa",
+    "category": "00_servicios",
+    "keywords": [
+      "ciencias aeroespaciales",
+      "ciencias navales",
+      "ingenieria de armas",
+      "inteligencia estrategica",
+      "seguridad e instruccion militar",
+      "geopolitica",
+      "desarrollo y defensa nacional",
+      "submarinos",
+      "ciencias militares",
+      "fuerzas especiales",
+      "educacion militar y de defensa",
+      "artilleria",
+      "infanteria de marina"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 140,
+    "name": "Ciencias Policiales",
+    "slug": "ciencias-policiales",
+    "category": "00_servicios",
+    "keywords": [
+      "ciencias policiales",
+      "buceo y salvamento",
+      "policiales",
+      "seguridad y defensa civil",
+      "investigacion privada",
+      "administracion y ciencias policiales",
+      "guardacostas"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 141,
+    "name": "Administración Hotelera",
+    "slug": "administracion-hotelera",
+    "category": "00_servicios",
+    "keywords": [
+      "hosteleria",
+      "gerencia hotelera",
+      "hospitalidad",
+      "hotel y turismo",
+      "administracion hotelera",
+      "hoteleria",
+      "recepcion hotelera",
+      "servicios hoteleros",
+      "gestion hotelera"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 142,
+    "name": "Administración en Turismo",
+    "slug": "administracion-en-turismo",
+    "category": "00_servicios",
+    "keywords": [
+      "turismo y hoteleria",
+      "operaciones hoteleras y de viajes",
+      "turismo cultural",
+      "gestion en turismo",
+      "ecoturismo",
+      "gestion turistica",
+      "promocion turistica",
+      "guia turistica",
+      "administracion en turismo",
+      "turismo"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 143,
+    "name": "Ingeniería de Transporte",
+    "slug": "ingenieria-de-transporte",
+    "category": "00_servicios",
+    "keywords": [
+      "estudios de transporte",
+      "gestion aeroportuaria",
+      "transportes",
+      "transporte maritimo",
+      "ingenieria de transporte"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 144,
+    "name": "Cocina y Gastronomía",
+    "slug": "cocina-y-gastronomia",
+    "category": "00_servicios",
+    "keywords": [
+      "gastronomia",
+      "chef",
+      "servicio de restaurante y bar",
+      "gestion de restaurantes",
+      "arte culinario",
+      "cocina",
+      "barman",
+      "servicio de mesa",
+      "asistencia de cocina"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 145,
+    "name": "Panadería y Pastelería",
+    "slug": "panaderia-y-pasteleria",
+    "category": "00_servicios",
+    "keywords": [
+      "pastelero",
+      "pasteleria",
+      "reposteria",
+      "confiteria",
+      "panaderia",
+      "panadero"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 146,
+    "name": "Secundaria Completa",
+    "slug": "secundaria-completa",
+    "category": "99_otros",
+    "keywords": [
+      "secundaria completa",
+      "x secundaria"
+    ],
+    "allow_update": false
+  },
+  {
+    "id": 147,
+    "name": "Todas Las Carreras",
+    "slug": "todas-las-carreras",
+    "category": "99_otros",
+    "keywords": [
+      "todas las carreras"
+    ],
+    "allow_update": false
+  }
+]
