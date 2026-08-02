@@ -79,7 +79,8 @@ class Settings:
 	@property
 	def DB_TABLE(self):
 		"""Nombre de la tabla PostgreSQL. Por defecto 'scraped_posts'."""
-		return os.environ.get("DB_TABLE", "scraped_posts")
+		value = os.environ.get("DB_TABLE", "").strip()
+		return value or "scraped_posts"
 
 	# Agrega aquí más propiedades según tus variables de entorno
 
