@@ -27,6 +27,19 @@ class WordPressAPI:
         Callers deben revisar 'status_code' o la clave 'error' para detectar fallos.
         """
         url = f"{self.base_url}/wp-json/wp/v2/{endpoint}"
+        response = httpx.request(method, url, headers=self.headers, verify=False, **kwargs)
+        try:
+            body = response.json()
+        except ValueError:
+            body = {"error": "Invalid JSON response", "content": response.text}
+
+        if isinstance(body, list):
+            # Endpoints que devuelven listas (ej. GET /posts) no pueden llevar
+            # la key "_status_code" adentro, así que lo envolvemos.
+            return {"data": body, "_status_code": response.status_code}
+
+        body["_status_code"] = response.status_code
+        return body
         try:
             response = httpx.request(method, url, headers=self.headers, verify=False, **kwargs)
             try:
