@@ -80,11 +80,21 @@ class ScrapingSource:
                 filtered[key] = _resolve_env_refs(filtered[key])
         # Convertir campos numéricos (pueden venir como strings tras resolver env vars)
         for key, cast in (("max_pages", int), ("batch_delay", float)):
-            if isinstance(filtered.get(key), str):
+            value = filtered.get(key)
+            if isinstance(value, str):
+                value = value.strip()
                 try:
-                    filtered[key] = cast(filtered[key])
+                    filtered[key] = cast(value)
                 except (ValueError, TypeError):
-                    logger.warning(f"No se pudo convertir '{key}' a número: {filtered[key]!r}")
+                    default_value = cls.__dataclass_fields__[key].default
+                    logger.warning(
+                        f"No se pudo convertir '{key}' a número: {value!r} "
+                        f"(¿variable de entorno no definida?) — usando default {default_value!r}"
+                    )
+                    # Importante: NO dejar el string roto en el dict. Si se deja,
+                    # termina comparándose contra un int más adelante y truena
+                    # con TypeError en vez de dar un valor usable.
+                    filtered[key] = default_value
         return cls(**filtered)
 
 

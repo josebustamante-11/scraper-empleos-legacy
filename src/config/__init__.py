@@ -62,7 +62,7 @@ class Settings:
 
 	@property
 	def SCRAPING_MAX_PAGES(self):
-		return int(os.environ.get("SCRAPING_MAX_PAGES", "10"))
+		return self._as_int(os.environ.get("SCRAPING_MAX_PAGES"), default=10)
 
 	@property
 	def SCRAPING_DEBUG_LIMIT(self):
