@@ -22,6 +22,16 @@ class Settings:
 			return default
 		return value.strip().lower() in ("1", "true", "yes", "on")
 
+	@staticmethod
+	def _as_int(value: str | None, default: int = 0) -> int:
+		value = (value or "").strip()
+		if not value:
+			return default
+		try:
+			return int(value)
+		except ValueError:
+			return default
+
 	@property
 	def DB_URL(self):
 		return os.environ.get("DB_URL")
@@ -57,7 +67,7 @@ class Settings:
 	@property
 	def SCRAPING_DEBUG_LIMIT(self):
 		"""Límite de items a procesar por lote (0 = sin límite). Solo para pruebas."""
-		return int(os.environ.get("SCRAPING_DEBUG_LIMIT", "0"))
+		return self._as_int(os.environ.get("SCRAPING_DEBUG_LIMIT"), default=0)
 
 	@property
 	def SCRAPING_BATCH_DELAY(self):

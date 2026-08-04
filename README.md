@@ -32,6 +32,9 @@ mi-scraper/
 git clone https://github.com/TU-USUARIO/mi-scraper.git
 cd mi-scraper
 
+python --version
+Python 3.11.9
+
 python -m venv venv
 source venv/bin/activate        # Mac / Linux
 venv\Scripts\activate           # Windows
